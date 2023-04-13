@@ -1,0 +1,51 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\BrowserChooserHTM]
+@="Browser Chooser HTML Document"
+"AppUserModelId"="BrowserChooser"
+
+[HKEY_CLASSES_ROOT\BrowserChooserHTM\Application]
+"AppUserModelId"="BrowserChooser"
+"ApplicationIcon"="C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe,0"
+"ApplicationName"="Browser Chooser"
+"ApplicationCompany"="YAR"
+"ApplicationDescription"="Browse the web"
+
+[HKEY_CLASSES_ROOT\BrowserChooserHTM\DefaultIcon]
+@="C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe,0"
+
+[HKEY_CLASSES_ROOT\BrowserChooserHTM\shell]
+
+[HKEY_CLASSES_ROOT\BrowserChooserHTM\shell\open]
+
+[HKEY_CLASSES_ROOT\BrowserChooserHTM\shell\open\command]
+@="\"C:\main.exe\" %1"
+
+[HKEY_CLASSES_ROOT\BrowserChooserHTM\shell\runas]
+"ProgrammaticAccessOnly"=""
+
+[HKEY_CLASSES_ROOT\BrowserChooserHTM\shell\runas\command]
+@="\"C:\main.exe\" --do-not-de-elevate %1"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\Shell\Associations\UrlAssociations\http]
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\Shell\Associations\UrlAssociations\http\UserChoice]
+"ProgId"="BrowserChooserHTM"
+"Hash"="8Rh/DSWNshc="
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\Shell\Associations\UrlAssociations\https]
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\Shell\Associations\UrlAssociations\https\UserChoice]
+"ProgId"="BrowserChooserHTM"
+"Hash"="8Rh/DSWNshc="
+
+[HKEY_CURRENT_USER\SOFTWARE\RegisteredApplications]
+"BrowserChooser"="Software\\Clients\\StartMenuInternet\\BrowserChooser\\Capabilities"
+
+[HKEY_CURRENT_USER\SOFTWARE\Clients\StartMenuInternet\BrowserChooser]
+
+[HKEY_CURRENT_USER\SOFTWARE\Clients\StartMenuInternet\BrowserChooser\Capabilities]
+
+[HKEY_CURRENT_USER\SOFTWARE\Clients\StartMenuInternet\BrowserChooser\Capabilities\URLAssociations]
+"http"="BrowserChooserHTM"
+"https"="BrowserChooserHTM"
