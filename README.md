@@ -18,7 +18,7 @@ If above is not found, look for `csc.exe` in your system. Any of those will do.
 1. All URLs open in this "default browser" so you can copy paste that URL
 
 ## Architecture
-Spawns a window with a textbox, gets last argument to the app, prints the argument in the textbox for the user to copy.
+Spawns a window with a textbox, gets arguments to the app, prints the argument in the textbox for the user to copy.
 
 ## Security
 Security aspects are not considered in this souce code. wcgw. 
