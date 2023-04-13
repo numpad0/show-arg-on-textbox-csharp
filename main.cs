@@ -45,7 +45,9 @@ class main : Form
             BackColor = Color.Gray,
             ForeColor = Color.White
         });
-        txt.Text = String.Join("", System.Environment.GetCommandLineArgs());
+        txt.Text = System.Environment.GetCommandLineArgs().Last();
+        // This won't work: String.Join(" ", System.Environment.GetCommandLineArgs()); 
+        // I mean, I should be joining all non-null args except [0], I *should* be 
     }
 
     [STAThread]
