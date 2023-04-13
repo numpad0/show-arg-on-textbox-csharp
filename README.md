@@ -1,5 +1,7 @@
 # main.cs
 
+![Screenshot](screenshot.png)
+
 ## Licensed under WTFPL（Do What The Fuck You Want To Public License）where applicable && if necessary
 
 ## Why
