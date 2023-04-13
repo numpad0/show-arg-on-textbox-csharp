@@ -15,7 +15,7 @@
 // 5) All URLs open in this "default browser" so you can copy paste that URL
 //
 // Architecture:
-// Gets last argument and prints it in a textbox to copy.
+// Gets arguments, join them and prints in a textbox to copy.
 
 using System;
 using System.Drawing;
@@ -45,7 +45,7 @@ class main : Form
             BackColor = Color.Gray,
             ForeColor = Color.White
         });
-        txt.Text = System.Environment.GetCommandLineArgs().Last();
+        txt.Text = String.Join("", System.Environment.GetCommandLineArgs());
     }
 
     [STAThread]
