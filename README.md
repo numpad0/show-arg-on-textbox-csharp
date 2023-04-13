@@ -14,8 +14,8 @@ If above is not found, look for `csc.exe` in your system. Any of those will do.
 
 ## Usage
 1. Run register_as_browser.reg 
-1. Go to HKEY_CLASSES_ROOT\BrowserChooserHTM\shell\open\command and \runas\command
-1. Fix path in DEFAULT key to point to main.exe, e.g. [ "C:\main.exe" "%1" ]
+1. Go to `HKEY_CLASSES_ROOT\BrowserChooserHTM\shell\open\command` and `\runas\command`
+1. Fix path in DEFAULT key to point to main.exe, e.g. `"C:\main.exe" "%1"`
 1. Set BrowserChooserHTM as your "browser"
 1. All URLs open in this "default browser" so you can copy paste that URL
 
